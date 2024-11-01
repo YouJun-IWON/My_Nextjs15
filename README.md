@@ -41,4 +41,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 -unused-imports @typescript-eslint/parser
 3. npm i -D prettier @ianvs/prettier-plugin-sort-imports prettier-plugin-tailwindcss
 
-npm install --save-dev @typescript-eslint/eslint-plugin
+--- Husky Setting ---
+
+npm install --save-dev husky
+npm pkg set scripts.prepare="husky install"
+npm run prepare
+
+

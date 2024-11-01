@@ -1,22 +1,24 @@
 {
-  "arrowParens": "avoid",
-  "printWidth": 80,
-  "endOfLine": "lf",
-  "singleQuote": false,
-  "tabWidth": 2,
-  "trailingComma": "all",
   "plugins": [
     "@ianvs/prettier-plugin-sort-imports",
     "prettier-plugin-tailwindcss"
   ],
-  "tailwindFunctions": ["tv", "cx", "cn"],
+  "tailwindConfig": "./tailwind.config.ts",
+  "semi": true,
+  "tabWidth": 2,
+  "printWidth": 100,
+  "singleQuote": true,
+  "trailingComma": "es5",
   "importOrder": [
-    "^react$",
-    "^next/(.*)$",
-    "^@hooks/(.*)$",
-    "^@components/(.*)$",
+    "^(react/(.*)$)|^(react$)",
+    "^(next/(.*)$)|^(next$)",
     "<THIRD_PARTY_MODULES>",
-    "^@/(.*)$"
+    "",
+    "^@/components/(.*)$",
+    "^@/lib/(.*)$",
+    "^@/styles/(.*)$",
+    "^@/(.*)$",
+    "^[./]"
   ],
   "importOrderSeparation": true,
   "importOrderSortSpecifiers": true
