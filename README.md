@@ -1,4 +1,4 @@
-# Nextjs 15 Prettier Eslint Husky Setting 
+# Nextjs 15 Prettier Eslint Husky Setting
 
 1. npx create-next-app@latest
 2. npm i -D eslint@8.57.0 eslint-config-next eslint-config-prettier eslint-plugin-tailwindcss eslint-plugin
