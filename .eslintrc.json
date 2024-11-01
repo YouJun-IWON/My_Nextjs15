@@ -42,12 +42,5 @@
       "rootDir": ["./src/"]
     }
   },
-  "ignorePatterns": [
-    "node_modules/",
-    ".next/",
-    "assets/",
-    "public/",
-    "*.config.js",
-    "*.config.ts"
-  ]
+  "ignorePatterns": ["node_modules/", ".next/", "assets/", "public/", "*.config.js", "*.config.ts"]
 }
